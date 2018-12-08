@@ -2,7 +2,7 @@ import sys
 
 def getKey(jar):
     key = "org.robolectric\:android-all\:"
-    version = jar.split("/")[3].strip()[12:-4]
+    version = jar.split("/")[2].strip()[12:-4]
     key = key + version
     return key
 
